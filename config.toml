@@ -1,0 +1,5 @@
+baseURL = 'https://rahim.li/'
+languageCode = 'en-us'
+title = "Alvan Rahimli's blog"
+theme = 'papermod'
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Alvan Rahimli&#39;s blog</title>
+    <link>https://rahim.li/posts/</link>
+    <description>Recent content in Posts on Alvan Rahimli&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Sep 2021 15:08:04 +0000</lastBuildDate><atom:link href="https://rahim.li/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>https://rahim.li/posts/first-post/</link>
+      <pubDate>Wed, 01 Sep 2021 15:08:04 +0000</pubDate>
+      
+      <guid>https://rahim.li/posts/first-post/</guid>
+      <description>Hi! This is a blog I&amp;rsquo;m trying to set up :)
+import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;Hello, Hugo!&amp;#34;) } </description>
+    </item>
+    
+  </channel>
+</rss>
