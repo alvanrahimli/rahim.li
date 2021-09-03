@@ -2,7 +2,7 @@
 title: "First Post"
 author: "Alvan Rahimli"
 date: 2021-09-01T15:08:04Z
-draft: true
+draft: false
 ---
 
 # Hi!
