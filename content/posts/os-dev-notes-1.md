@@ -1,7 +1,7 @@
 ---
 title: "OS-Dev Notes #1"
 author: "Alvan Rahimli"
-date: 2021-08-01T14:19:49Z
+date: 2021-10-01T14:19:49Z
 draft: false
 ---
 
