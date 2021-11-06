@@ -75,7 +75,7 @@ buildDrafts = false
       [[languages.en.menu.main]]
         identifier = "about"
         name = "About me"
-        url = "/about"
+        url = "/posts/about-me"
       [[languages.en.menu.main]]
         identifier = "cv"
         name = "Look at my CV"

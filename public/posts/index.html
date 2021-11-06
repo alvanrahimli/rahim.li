@@ -90,7 +90,7 @@
     
       
         
-          <li><a href="/about">About me</a></li>
+          <li><a href="/posts/about-me">About me</a></li>
         
       
         
@@ -106,7 +106,7 @@
   <ul class="menu__inner menu__inner--mobile">
     
       
-        <li><a href="/about">About me</a></li>
+        <li><a href="/posts/about-me">About me</a></li>
       
     
       
@@ -125,6 +125,44 @@
     
   
   <div class="posts">
+    
+      <div class="post on-list">
+        <h1 class="post-title">
+          <a href="https://rahim.li/posts/os-dev-notes-1/">OS-Dev Notes #1</a>
+        </h1>
+        <div class="post-meta">
+          <span class="post-date">
+            2021-10-01
+          </span>
+          
+            <span class="post-author">:: Alvan Rahimli</span>
+          
+        </div>
+
+        
+
+        
+
+
+      
+        <div class="post-content">
+          
+          
+          OS-DEV notes #1 8086 Segment Registers: To access memory adresses more than 16 bit (65535) we use &lsquo;Segment Registers&rsquo;
+It is always appreciated to remove interrupts (cli), reset segment registers, then set interrupts (sli) before bootloader starts.
+ CS =&gt; Code Segment SS =&gt; Stack Segment DS =&gt; Data Segment ES =&gt; Extra Segment  Final memory address is calculated as:
+final address = Segment Register * 16 + offset
+          
+          
+        </div>
+
+        
+        <div>
+          <a class="read-more button"
+            href="/posts/os-dev-notes-1/">Read more →</a>
+        </div>
+        
+      </div>
     
       <div class="post on-list">
         <h1 class="post-title">
@@ -227,6 +265,37 @@ Throughput How many tasks can be performed in a given time unit?
         <div>
           <a class="read-more button"
             href="/posts/first-post/">Read more →</a>
+        </div>
+        
+      </div>
+    
+      <div class="post on-list">
+        <h1 class="post-title">
+          <a href="https://rahim.li/posts/about-me/">About Me</a>
+        </h1>
+        <div class="post-meta">
+          <span class="post-date">
+            0001-01-01
+          </span>
+          
+        </div>
+
+        
+
+        
+
+
+      
+        <div class="post-content">
+          
+          About me
+          
+        </div>
+
+        
+        <div>
+          <a class="read-more button"
+            href="/posts/about-me/">Read more →</a>
         </div>
         
       </div>

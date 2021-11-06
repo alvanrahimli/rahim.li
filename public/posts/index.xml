@@ -6,7 +6,90 @@
     <description>Recent content in Posts on Alvan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Sep 2021 21:41:22 +0400</lastBuildDate><atom:link href="https://rahim.li/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Oct 2021 14:19:49 +0000</lastBuildDate><atom:link href="https://rahim.li/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OS-Dev Notes #1</title>
+      <link>https://rahim.li/posts/os-dev-notes-1/</link>
+      <pubDate>Fri, 01 Oct 2021 14:19:49 +0000</pubDate>
+      
+      <guid>https://rahim.li/posts/os-dev-notes-1/</guid>
+      <description>OS-DEV notes #1 8086 Segment Registers: To access memory adresses more than 16 bit (65535) we use &amp;lsquo;Segment Registers&amp;rsquo;
+It is always appreciated to remove interrupts (cli), reset segment registers, then set interrupts (sli) before bootloader starts.
+ CS =&amp;gt; Code Segment SS =&amp;gt; Stack Segment DS =&amp;gt; Data Segment ES =&amp;gt; Extra Segment  Final memory address is calculated as:
+final address = Segment Register * 16 + offset</description>
+      <content>&lt;h1 id=&#34;os-dev-notes-1&#34;&gt;OS-DEV notes #1&lt;/h1&gt;
+&lt;h2 id=&#34;8086-segment-registers&#34;&gt;8086 Segment Registers:&lt;/h2&gt;
+&lt;p&gt;To access memory adresses more than 16 bit (65535) we use &amp;lsquo;Segment Registers&amp;rsquo;&lt;br&gt;
+It is always appreciated to remove interrupts (&lt;code&gt;cli&lt;/code&gt;), reset segment registers, then set interrupts (&lt;code&gt;sli&lt;/code&gt;) before bootloader starts.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CS =&amp;gt; Code Segment&lt;/li&gt;
+&lt;li&gt;SS =&amp;gt; Stack Segment&lt;/li&gt;
+&lt;li&gt;DS =&amp;gt; Data Segment&lt;/li&gt;
+&lt;li&gt;ES =&amp;gt; Extra Segment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Final memory address is calculated as:&lt;br&gt;
+&lt;code&gt;final address = Segment Register * 16 + offset&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;In the example below, &lt;code&gt;lodsb&lt;/code&gt; knows that, address it must read is &lt;code&gt;0x7c * 16 + 0x1f&lt;/code&gt;, as &lt;code&gt;lodsb&lt;/code&gt; uses Data Segment&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;org 0
+mov ax, 0x7c
+mov ds, ax
+mov si, 0x1f
+lodsb           ; LODSB uses Data Segment for segmentation
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The table below demonstrates LOD__ command usage:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Code&lt;/th&gt;
+&lt;th&gt;Mnemonic&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;AC&lt;/td&gt;
+&lt;td&gt;LODS m8&lt;/td&gt;
+&lt;td&gt;Load byte at address DS:(E)SI into AL&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AD&lt;/td&gt;
+&lt;td&gt;LODS m16&lt;/td&gt;
+&lt;td&gt;Load word at address DS:(E)SI into AX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AD&lt;/td&gt;
+&lt;td&gt;LODS m32&lt;/td&gt;
+&lt;td&gt;Load double-word at address DS:(E)SI into EAX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AC&lt;/td&gt;
+&lt;td&gt;LODSB&lt;/td&gt;
+&lt;td&gt;Load byte at address DS:(E)SI into AL&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AD&lt;/td&gt;
+&lt;td&gt;LODSW&lt;/td&gt;
+&lt;td&gt;Load word at address DS:(E)SI into AX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;AD&lt;/td&gt;
+&lt;td&gt;LODSD&lt;/td&gt;
+&lt;td&gt;Load double-word at address DS:(E)SI into EAX&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Stack Segmentation example:&lt;br&gt;
+At the code below, when we &lt;strong&gt;push 0xffff&lt;/strong&gt; to stack, stack pointer is
+decremented by 2 (bc, we use 16 bit) and &lt;code&gt;sp == 0x7bfe&lt;/code&gt;.&lt;br&gt;
+Then, memory at adress &lt;strong&gt;0x7bfe&lt;/strong&gt; is set to &lt;strong&gt;0xffff&lt;/strong&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;mov ax, 0x00    ; Set ax to 0x00
+mov ss, ax      ; Move value in ax to &#39;stack segment&#39;
+mov ax, 0x7c00  ; Add ax to 0x7c00
+mov sp, ax      ; Move AX to &#39;stack pointer&#39;
+
+push 0xffff     ; Pushes 0xffff to the stack
+&lt;/code&gt;&lt;/pre&gt;</content>
+    </item>
+    
     <item>
       <title>Learing Vim - Day #1</title>
       <link>https://rahim.li/posts/learing-vim-day-1/</link>
@@ -194,6 +277,126 @@ import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;Hello, Hugo!&amp
 	&lt;span style=&#34;color:#a6e22e&#34;&gt;fmt&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;Println&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, Hugo!&amp;#34;&lt;/span&gt;)
 }
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://rahim.li/posts/about-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rahim.li/posts/about-me/</guid>
+      <description>Who am I?  I&amp;rsquo;m a geek. My name is Alvan Rahimli. Here is my GitHub. I do lots of procastination, as well as some coding.
+Actually, it is a lot of coding, but I feel I can still fit much more activities in a day, but you know, there are too much distractions. So anyway, I&amp;rsquo;m a software developer, with about 2 years experience. I do a lot of C# &amp;amp; .</description>
+      <content>&lt;h1 id=&#34;who-am-i&#34;&gt;Who am I?&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;I&amp;rsquo;m a geek. My name is Alvan Rahimli. Here is my &lt;a href=&#34;https://github.com/alvanrahimli&#34;&gt;GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I do lots of procastination, as well as some coding.&lt;br&gt;
+Actually, it is a lot of coding, but I feel I can still fit much more activities in a day, but you know, there are too much distractions.&lt;/li&gt;
+&lt;li&gt;So anyway, I&amp;rsquo;m a software developer, with about 2 years experience.&lt;/li&gt;
+&lt;li&gt;I do a lot of &lt;strong&gt;C# &amp;amp; .NET Core&lt;/strong&gt; stuff, as well as some &lt;strong&gt;Golang&lt;/strong&gt; coding. I enjoy writing websites, but not only them (as I plan shifting my career to more low level stuff :D).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;what-am-i-doing&#34;&gt;What am I doing?&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;m currently working as a Middle Software Developer at &lt;a href=&#34;https://staffwerke.de&#34;&gt;Staffwerke&lt;/a&gt;. Before this, I was gaining experience at number of places, that I have listed below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Staffwerke&lt;/strong&gt;  &lt;em&gt;(10/2021 - now)&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;Developing back-end services for various E-Commerce applications &amp;amp; Loyalty systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frazex&lt;/strong&gt;     &lt;em&gt;(06/2021 - 09/2021)&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;Supporting legacy codebase for company’s projects&lt;/li&gt;
+&lt;li&gt;Applying microservices architecture for scalable &amp;amp; available application&lt;/li&gt;
+&lt;li&gt;Modelling systems for E-Commerce applications&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fonibo&lt;/strong&gt;     &lt;em&gt;(09/2020 - 05/2021)&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;Developing services for general operation flow of fast delivery platform&lt;/li&gt;
+&lt;li&gt;Writing algorithms to optimize courier delivery paths&lt;/li&gt;
+&lt;li&gt;Taking part in several internal projects such as posbox.app&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;KekaMaps&lt;/strong&gt;   &lt;em&gt;(09/2020 - 11/2020)&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;Designing and developing API infrastructure using ASP.NET Core WebApi&lt;/li&gt;
+&lt;li&gt;Writing admin panel for operational team behind the website&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edway&lt;/strong&gt;    &lt;em&gt;(06/2020 - 11/2020)&lt;/em&gt;
+&lt;ul&gt;
+&lt;li&gt;Managing &amp;amp; Operating IT Team&lt;/li&gt;
+&lt;li&gt;Building scalable architecture using various technologies and services&lt;/li&gt;
+&lt;li&gt;Writing services to help tutors and students to manage education paths&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;what-can-i-do&#34;&gt;What can I do?&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Languages&lt;/th&gt;
+&lt;th&gt;Tools &amp;amp; Frameworks&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;C#&lt;/td&gt;
+&lt;td&gt;.NET Core, ASP.NET Core MVC, WebAPI, Razor Pages, Blazor&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dart&lt;/td&gt;
+&lt;td&gt;Flutter (I&amp;rsquo;m still learning tho)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;TypeScript&lt;/td&gt;
+&lt;td&gt;Angular&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Golang&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;DevOps&lt;/td&gt;
+&lt;td&gt;Docker &amp;amp; Docker Compose&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;some-of-my-projects&#34;&gt;Some of my projects&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;hellip;Dots&lt;/strong&gt; – Package Manager for dotFiles
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/alvanrahimli/dots-cli&#34;&gt;(go to project)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;kekamaps.com&lt;/strong&gt; – Website for disabled people to report any non-adopted places
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://kekamaps.com&#34;&gt;(go to project)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OpenPOS&lt;/strong&gt; – Open Source Point of Sale &amp;amp; Inventory management application
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/alvanrahimli/OpenPOS&#34;&gt;(go to project)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Several proprietary software such as fonibo.com, &lt;a href=&#34;https://posbox.app&#34;&gt;posbox.app&lt;/a&gt; and etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;boring-stuff&#34;&gt;Boring stuff&lt;/h1&gt;
+&lt;p&gt;I am also good at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Team communication&lt;/li&gt;
+&lt;li&gt;Project planning&lt;/li&gt;
+&lt;li&gt;Software architecture design&lt;/li&gt;
+&lt;li&gt;Time management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;interesting-facts&#34;&gt;Interesting facts&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;I use &lt;a href=&#34;https://getfedora.org/&#34;&gt;Fedora&lt;/a&gt; btw.&lt;/li&gt;
+&lt;li&gt;I &amp;lt;3 memes.&lt;/li&gt;
+&lt;li&gt;Sometimes I write some blog posts.&lt;/li&gt;
+&lt;li&gt;I have an amazing &lt;a href=&#34;https://github.com/themisir&#34;&gt;friend&lt;/a&gt; who is also a geek and writes awesome blogs at &lt;a href=&#34;https://themisir.com&#34;&gt;themisir.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
     </item>
     
   </channel>
