@@ -1,0 +1,230 @@
+<!doctype html><html lang=en>
+<head>
+<title>Non-Functional Requirements :: Alvan's Blog</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Non-functional requirements are, but not limited to:
+ Performance Load Data volume Concurrent users SLA &amp;amp; etc.  Performance System must be fast. But fast is relative term. If there is an end user fast means requests taking less than 1 sec. On the other side if we are working B2B, fast can mean less than 100ms.
+Latency How much time does it take to perform a single task?
+Throughput How many tasks can be performed in a given time unit?">
+<meta name=keywords content="tech blog alvan alvanrahimli rahimli dotnet developer c# razor pages golang go">
+<meta name=robots content="noodp">
+<link rel=canonical href=/posts/non-functional-requirements/>
+<link rel=stylesheet href=/assets/style.css>
+<link rel=apple-touch-icon href=/img/apple-touch-icon-192x192.png>
+<link rel="shortcut icon" href=/img/favicon/orange.png>
+<meta name=twitter:card content="summary">
+<meta name=twitter:site content>
+<meta name=twitter:creator content="Alvan Rahimli">
+<meta property="og:locale" content="en">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Non-Functional Requirements">
+<meta property="og:description" content="Non-functional requirements are, but not limited to:
+ Performance Load Data volume Concurrent users SLA &amp;amp; etc.  Performance System must be fast. But fast is relative term. If there is an end user fast means requests taking less than 1 sec. On the other side if we are working B2B, fast can mean less than 100ms.
+Latency How much time does it take to perform a single task?
+Throughput How many tasks can be performed in a given time unit?">
+<meta property="og:url" content="/posts/non-functional-requirements/">
+<meta property="og:site_name" content="Alvan's Blog">
+<meta property="og:image" content="/img/favicon/orange.png">
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+<meta property="article:published_time" content="2021-09-03 14:19:49 +0000 UTC">
+</head>
+<body class=orange>
+<div class="container center headings--one-size">
+<header class=header>
+<div class=header__inner>
+<div class=header__logo>
+<a href=/>
+<div class=logo>
+Alvan's Blog
+</div>
+</a>
+</div>
+<div class=menu-trigger>menu</div>
+</div>
+<nav class=menu>
+<ul class="menu__inner menu__inner--desktop">
+<li><a href=/posts/about-me>About me</a></li>
+<li><a href=https://cv.rahim.li/>Look at my CV</a></li>
+</ul>
+<ul class="menu__inner menu__inner--mobile">
+<li><a href=/posts/about-me>About me</a></li>
+<li><a href=https://cv.rahim.li/>Look at my CV</a></li>
+</ul>
+</nav>
+</header>
+<div class=content>
+<div class=post>
+<h1 class=post-title>
+<a href=/posts/non-functional-requirements/>Non-Functional Requirements</a></h1>
+<div class=post-meta>
+<span class=post-date>
+2021-09-03
+[Updated: 2021-09-03]
+</span>
+<span class=post-author>:: Alvan Rahimli</span>
+</div>
+<div class=post-content><div>
+<p>Non-functional requirements are, but not limited to:</p>
+<ul>
+<li>Performance</li>
+<li>Load</li>
+<li>Data volume</li>
+<li>Concurrent users</li>
+<li>SLA & etc.</li>
+</ul>
+<h2 id=performance>Performance<a href=#performance class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<p>System must be fast. But fast is relative term. If there is an end user fast means requests taking less than 1 sec. On the other side if we are working B2B, fast can mean less than 100ms.</p>
+<h3 id=latency>Latency<a href=#latency class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<p>How much time does it take to perform a single task?</p>
+<h3 id=throughput>Throughput<a href=#throughput class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<p>How many tasks can be performed in a given time unit?</p>
+<h3 id=latency-vs-throughput>Latency VS Throughput<a href=#latency-vs-throughput class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Latency</td>
+<td>1second</td>
+</tr>
+<tr>
+<td>Throughput</td>
+<td>- Well designed app: > 1000</td>
+</tr>
+<tr>
+<td></td>
+<td>- Badly designed app: &lt; 60</td>
+</tr>
+</tbody>
+</table>
+<h2 id=load>Load<a href=#load class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<p>Quantity of work we can perform without crushing. (It depends on application type)
+E.g: WebAPI -> Number of concurrent requests we can handle without crashing.</p>
+<h3 id=load-vs-throughput>Load VS Throughput<a href=#load-vs-throughput class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Throughput</td>
+<td>100 requests/sec</td>
+</tr>
+<tr>
+<td>Load</td>
+<td>500 requests without crashing</td>
+</tr>
+<tr>
+<td><em>For e-commerce app it can be ~200 concurrent request, but system must be available on Black Fridays. So, we must be ready for ~2000 concurrent requests.</em></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id=data-volume>Data Volume<a href=#data-volume class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<ul>
+<li>
+<p>How much data the system will accumulate over time</p>
+</li>
+<li>
+<p>Helps with:</p>
+<ul>
+<li>Deciding on Database type</li>
+<li>Designing queries</li>
+<li>Storage planning</li>
+</ul>
+</li>
+<li>
+<p>Two aspects:</p>
+<ul>
+<li>Data required on &ldquo;Day One&rdquo;</li>
+<li>Data growth over time</li>
+</ul>
+</li>
+</ul>
+<h2 id=concurrent-users>Concurrent users<a href=#concurrent-users class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<ul>
+<li>How many users will use system simultaniously</li>
+</ul>
+<h3 id=concurrent-users-vs-load>Concurrent users VS Load<a href=#concurrent-users-vs-load class=hanchor arialabel=Anchor>&#8983;</a> </h3>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Concurrent Users</td>
+<td>Including &ldquo;Dead times&rdquo;</td>
+</tr>
+<tr>
+<td>Load</td>
+<td>Actual requests</td>
+</tr>
+</tbody>
+</table>
+<p>For example, user requests for all products in category. Service handles request. After this for 5 minute user will be looking at this data. This duration is counted as <strong>&ldquo;Dead Time&rdquo;</strong> and appropriate user is included in <strong>concurrent users</strong>.<br>
+For average system, <code>Concurrent = Load x 10</code></p>
+<h2 id=sla-service-level-agreement>SLA (Service Level Agreement)<a href=#sla-service-level-agreement class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<p>Required uptime for the system</p>
+<p><em>Cloud providers are mostly competing in this field. For example, SLA for Azure Cosmos DB is notes as 99.99% This means less than an hour per year:</em></p>
+<pre tabindex=0><code>24 * 365 = 8760 hrs/year
+8760 * 99.99% = 8759.12
+________________________
+8760 - 8759.12 = 0.88 hrs/year
+</code></pre><h2 id=conclusion>Conclusion<a href=#conclusion class=hanchor arialabel=Anchor>&#8983;</a> </h2>
+<ul>
+<li>Define what the system will have to deal with
+<ul>
+<li>Performance, SLA, Load and etc.</li>
+</ul>
+</li>
+<li>Client won&rsquo;t be able to define them</li>
+<li>Never begin working without Non-Functional requirements defined</li>
+</ul>
+</div></div>
+<div class=pagination>
+<div class=pagination__title>
+<span class=pagination__title-h>Read other posts</span>
+<hr>
+</div>
+<div class=pagination__buttons>
+<span class="button previous">
+<a href=/posts/os-dev-notes-1/>
+<span class=button__icon>←</span>
+<span class=button__text>OS-Dev Notes #1</span>
+</a>
+</span>
+<span class="button next">
+<a href=/posts/first-post/>
+<span class=button__text>First Post</span>
+<span class=button__icon>→</span>
+</a>
+</span>
+</div>
+</div>
+</div>
+</div>
+<footer class=footer>
+<div class=footer__inner>
+<div class=copyright>
+<span>© 2021 Powered by <a href=http://gohugo.io>Hugo</a></span>
+<span>:: Theme made by <a href=https://twitter.com/panr>panr</a></span>
+</div>
+</div>
+</footer>
+<script src=/assets/main.js></script>
+<script src=/assets/prism.js></script>
+</div>
+</body>
+</html>
