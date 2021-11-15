@@ -13,7 +13,7 @@ readingTime = true
 
 # ⚠️ DISCLAIMER
 As this is the first one in series, It will be a bit verbose, because I have to do introduction for all ongoing projects. Thanks.
-![Img](/images/shared/retro-sun.jpg)
+
 # 💡 Introduction
 Hi, fellow reader!  
 So, recently I was consooming a bit more articles, from other programmers and designers, and suddenly I thought why I'm not writing my own thoughts? Basically, this is good idea, for example you get a chance to look back and remember things you have done. But I was a bit uhmm, how to say, kinda shy. Suddenly, my friend at [themisir.com](https://themisir.com) also said this is a good idea. So, this is me, Alvan, doing it :D
