@@ -41,7 +41,7 @@ buildDrafts = false
 
   # set all headings to their default size (depending on browser settings)
   # it's set to `true` by default
-  # oneHeadingSize = false
+  oneHeadingSize = false
 
 
 [params.twitter]
@@ -58,7 +58,7 @@ buildDrafts = false
     subtitle = "Blogs and notes I take while learning & discovering new stuff"
     owner = "Alvan Rahimli"
     keywords = "tech blog alvan alvanrahimli rahimli dotnet developer c# razor pages golang go"
-    copyright = ""
+    copyright = "© me@rahim.li"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
