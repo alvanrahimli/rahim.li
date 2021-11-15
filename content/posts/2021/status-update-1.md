@@ -3,17 +3,17 @@ title = "🚀 Status Update | 14 Nov 2021"
 date = "2021-11-13T23:10:03Z"
 author = "Alvan Rahimli"
 authorTwitter = "" #do not include @
-cover = ""
+cover = "/images/shared/retro-sun.jpg"
 tags = ["weekly", "rant"]
 keywords = ["weekly", "talk", "summary", "roadmap"]
-description = ""
+description = "Recently my life got a massive DLC and some very interesting things in it. Let's talk about those."
 showFullContent = false
 readingTime = true
 +++
 
 # ⚠️ DISCLAIMER
 As this is the first one in series, It will be a bit verbose, because I have to do introduction for all ongoing projects. Thanks.
-
+![Img](/images/shared/retro-sun.jpg)
 # 💡 Introduction
 Hi, fellow reader!  
 So, recently I was consooming a bit more articles, from other programmers and designers, and suddenly I thought why I'm not writing my own thoughts? Basically, this is good idea, for example you get a chance to look back and remember things you have done. But I was a bit uhmm, how to say, kinda shy. Suddenly, my friend at [themisir.com](https://themisir.com) also said this is a good idea. So, this is me, Alvan, doing it :D
@@ -70,4 +70,4 @@ Okay, these was excuses of my laziness. I couldn't find exact things that I did 
 # 🎁 Bonus links
 - 🎶 [Amazing music to listen](https://youtu.be/ZILsHowUjpQ)
 
-# **Thanks very much for bearing with me until here <3**
+## **Thank you very much for bearing with me until here <3**

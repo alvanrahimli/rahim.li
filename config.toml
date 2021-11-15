@@ -5,44 +5,16 @@ paginate = 5
 buildDrafts = false
 
 [params]
-  # dir name of your main content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
   contentTypeName = "posts"
-
-  # ["orange", "blue", "red", "green", "pink"]
+  categories = ["weekly"]
   themeColor = "orange"
-
-  # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 2
-
-  # show selector to switch language
   showLanguageSelector = false
-
-  # set theme to full screen width
   fullWidthTheme = false
-
-  # center theme with default width
   centerTheme = true
-
-  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
-  # then the file will be used as a cover automatically.
-  # With this option you don't have to put the `cover` param in a front-matter.
   autoCover = true
-
-  # set post to show the last updated
-  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = true
-
-  # set a custom favicon (default is a `themeColor` square)
   # favicon = "favicon.ico"
-
-  # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
-  # updatedDatePrefix = "Updated"
-
-  # set all headings to their default size (depending on browser settings)
-  # it's set to `true` by default
   oneHeadingSize = false
-
 
 [params.twitter]
   # set Twitter handles for Twitter cards
@@ -58,7 +30,7 @@ buildDrafts = false
     subtitle = "Blogs and notes I take while learning & discovering new stuff"
     owner = "Alvan Rahimli"
     keywords = "tech blog alvan alvanrahimli rahimli dotnet developer c# razor pages golang go"
-    copyright = "© me@rahim.li"
+    copyright = "Alvan Rahimli"
     menuMore = "Show more"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
@@ -80,6 +52,10 @@ buildDrafts = false
         identifier = "cv"
         name = "Look at my CV"
         url = "https://cv.rahim.li/"
+      [[languages.en.menu.main]]
+        identifier = "weekly-posts"
+        name = "Weekly rants"
+        url = "/tags/weekly"
 #      [[languages.en.menu.main]]
 #        identifier = "showcase"
 #        name = "Showcase"
