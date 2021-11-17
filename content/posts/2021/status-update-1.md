@@ -70,4 +70,4 @@ Okay, these was excuses of my laziness. I couldn't find exact things that I did 
 # 🎁 Bonus links
 - 🎶 [Amazing music to listen](https://youtu.be/ZILsHowUjpQ)
 
-## **Thank you very much for bearing with me until here <3**
+## **Thank you very much for bearing with me until here ❤️**
