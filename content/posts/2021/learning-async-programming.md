@@ -20,11 +20,15 @@ Well, I hope for better understanding of `Task` :D
 
 ---
 # 🏁 Let's go!
+## ⚠️ Disclaimer
+This post is not a comprehensive guide to this topic. These are just notes I take while researching and learning this topic.
+
 ## Task VS Thread
 It turns out, differentiating these concepts is kinda the key point. `Task` has nothing to do with `Thread`.
 Basically, 
 
 - `Task` just represents a work that is planned to be executed.
+  - Well, thanks to my [friend](https://themisir.com) for pointing out, it is not exactly like this. Technically, Task is returned **after** execution is started. So it represents work that is already executing.
 - `Thread` is the execution itself.
 
 Yes, it gets interesting. I was told `Task` is lightweight `Thread`. Looks like I have been tricked a bit :D
@@ -143,3 +147,11 @@ This is where the disaster happens.
 - Call to `_httpClient.GetAsync(url).Result` blocks Thread Pool thread.
 
 The code below will deadlock application, no matter what context we are calling it from.
+
+### 📌 I will continue writing on this topic as I learn
+
+# 📚 References:
+- [MS Docs](https://docs.microsoft.com/en-us/dotnet/csharp/async)
+- [Understanding Async, Avoiding Deadlocks in C#](https://medium.com/rubrikkgroup/understanding-async-avoiding-deadlocks-e41f8f2c6f5d)
+  - Code samples and generally this article itself is based on this resource. 
+- [Async in depth](https://docs.microsoft.com/en-us/dotnet/standard/async-in-depth)
