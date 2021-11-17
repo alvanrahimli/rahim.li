@@ -56,7 +56,3 @@ buildDrafts = false
         identifier = "weekly-posts"
         name = "Weekly rants"
         url = "/tags/weekly"
-#      [[languages.en.menu.main]]
-#        identifier = "showcase"
-#        name = "Showcase"
-#        url = "/showcase"
