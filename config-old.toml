@@ -1,29 +1,27 @@
 baseurl = "https://rahim.li/"
 languageCode = "en-us"
 theme = "mainroad"
-paginate = 8
+paginate = 5
 buildDrafts = false
 
-[Params.logo]
-	image = false
-	title = "Alvan's blog"
-	subtitle = "Blogs and notes I take while learning & discovering new stuff"
+[params]
+  contentTypeName = "posts"
+  categories = ["weekly"]
+  themeColor = "orange"
+  showMenuItems = 2
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = true
+  autoCover = true
+  # favicon = "favicon.ico"
+  oneHeadingSize = false
 
-[Params.thumbnail]
-	visibility = ["list", "post"]
-	
-[Params.widgets.social]
-	# Enable parts of social widget
-	facebook = "alvanrahimli"
-	twitter = "alvan_rahim"
-	linkedin = "alvan-rahimli"
-	github = "alvanrahimli"
-	email = "alvan@rahim.li"
-
-[Params.widgets]
-	recent_num = 10
-[Params]
-	googleFontsLink = true
+[params.twitter]
+  # set Twitter handles for Twitter cards
+  # see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution
+  # do not include @
+  creator = ""
+  site = ""
 
 [languages]
   [languages.en]
