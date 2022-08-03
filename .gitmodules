@@ -1,6 +1,6 @@
 [submodule "themes/terminal"]
 	path = themes/terminal
 	url = https://github.com/alvanrahimli/hugo-theme-terminal.git
-[submodule "Mainroad"]
-	path = Mainroad
+[submodule "themes/mainroad"]
+	path = themes/mainroad
 	url = https://github.com/alvanrahimli/Mainroad.git
