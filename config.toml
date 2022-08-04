@@ -50,7 +50,11 @@ buildDrafts = false
         identifier = "about"
         name = "About me"
         url = "/posts/about-me"
-      [[languages.en.menu.main]]
+	  [[languages.en.menu.main]]
+	  	identifier = "home"
+		name = "Home page"
+		url = "/"
+	  [[languages.en.menu.main]]
         identifier = "cv"
         name = "Look at my CV"
         url = "https://cv.rahim.li/"
