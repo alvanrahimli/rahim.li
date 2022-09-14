@@ -41,6 +41,11 @@ Hal hazırda serverlərin 96%ə qədəri GNU/Linux OS işlədir. Amma azadlığ�
 
 Sizi bu qədər gözəl ideyanın hələ də mainstream olmamağının səbəbləri maraqlandıra bilər. Bunun birbaşa səbəbi böyük şirkətlərin yaratdığı maneələrdir. Məsələn, Microsoft təhsil institutlarına bütün office suit-ni pulsuz təklif edir. Bu da öz növbəsində kiçik yaşlardan şagirdlərin o ekosistemə öyrəşməsinə gətirib çıxarır. Stallman demiş, bu uşaqlara siqaret çəkmək öyrətməyə oxşayır, çünki asılılıq yaradır, hansı ki məktəblərin eləməli olduğunun tam əksidir. Məktəblər cəmiyyətə azad fikirli tələbələr yaratmalıdır. Başqa maneə kimi, closed-source hardware ləri göstərə bilərik. Necə ki, Nvidia videokartların APİlərini paylaşmır deyə, vindovsa özəl driveri daha sürətli edir, hansı ki əslində azad rəqabət prinsiplərinə ziddir. Və sırf bu fakta görə dəfələrlə cərimə olunub. Görünür, sadəcə, qazanc o cərimələrdən daha çoxdur :).
 
+## Nothing to hide
+FS və privacy tərəfdarlarına, anti-surveillance advocate-lərinə qarşı səslənən ən banal ifadələrdən biri də, "Gizlətməli heç nəyim yoxdur" sözüdür. Hansı ki, Edward Snowdenin bir sözü ilə tam əksini sübut etmək mümkündür. 
+
+> "Gizlədəcək bir şeyiniz olmadığı üçün məxfilik hüququnuza əhəmiyyət vermədiyinizi iddia etmək, deyəcək bir şeyiniz olmadığı üçün azad sözə əhəmiyyət vermədiyinizi söyləməkdən fərqli deyil."
+
 ## Yekun
 Günümüzdə komputerlər həyatımızın bir hissəsinə çevrilib. Buna görə də, kiber azadlıq, softvare haqqları insan haqqları ilə bərabər səviyyədə münasibət görməlidir.
 - Azad nitq
