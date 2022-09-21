@@ -195,3 +195,9 @@ Now, you can (in **project root**): `dotnet ef migrations add Initial` without n
 
 ## Thanks for reading this far :)
 If you have any suggestions, feel free to contact me via my email: "alvan @ [rahim.li]" (remove spaces, square brackets and quotes)
+
+## Now, music recommendations!
+- [Unchain My Heart - Rita Payes](https://youtu.be/EkfxnJQ3omA)
+- [Since You've Been Gone - Rita Payes](https://youtu.be/Ut_Do7ZeXOE)
+
+Wrote with 💖, by me 😊
