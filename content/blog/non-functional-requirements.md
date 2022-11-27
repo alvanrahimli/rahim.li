@@ -1,9 +1,9 @@
----
-title: "Non-Functional Requirements"
-author: "Alvan Rahimli"
-date: 2021-09-03T14:19:49Z
-draft: false
----
++++
+title = "Non-Functional Requirements"
+author = "Alvan Rahimli"
+date = "2021-09-03T14:19:49Z"
+draft = false
++++
 
 Non-functional requirements are, but not limited to:
 - Performance

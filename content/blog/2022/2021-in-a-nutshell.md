@@ -9,7 +9,6 @@ keywords = ["rant", "year", "summary", "recap"]
 description = "2021 was the most busy year of my life. I'll try to sum it in this blog post."
 showFullContent = false
 readingTime = true
-draft = false
 +++
 
 # Early 2021

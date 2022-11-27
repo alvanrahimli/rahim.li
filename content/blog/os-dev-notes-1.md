@@ -1,15 +1,15 @@
----
-title: "OS-Dev Notes #1"
-author: "Alvan Rahimli"
-date: 2021-10-01T14:19:49Z
-draft: false
----
++++
+title = "OS-Dev Notes 1"
+author = "Alvan Rahimli"
+date = "2021-10-01T14:19:49Z"
+draft = false
++++
 
 # OS-DEV notes #1
 
 ## 8086 Segment Registers:
 To access memory adresses more than 16 bit (65535) we use 'Segment Registers'  
-It is always appreciated to remove interrupts (`cli`), reset segment registers, then set interrupts (`sli`) before bootloader starts.  
+It is always appreciated to remove interrupts (`cli`), reset segment registers, then set interrupts (`sli`) before bootloader starts.
 
 - CS => Code Segment
 - SS => Stack Segment
