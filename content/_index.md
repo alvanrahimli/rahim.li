@@ -1,24 +1,10 @@
 +++
-# title = "Alvan Rahimli :: Home"
-
-#
-# Set menu to "main" to add this page to
-# the main menu on top of the page
-#
+title = "Alvan Rahimli :: Home"
 menu = "main"
-
-#
-# description is optional
-#
-# description = "An optional description for SEO. If not provided, an automatically created summary will be used."
-
-#
-# tags are optional
-#
-# tags = ["daily","dotnet","free-software","learning","monthly","quarter","rant","tutorial","update","weekly",]
+tags = ["daily","dotnet","free-software","learning","monthly","quarter","rant","tutorial","update","weekly",]
 +++
 
-# Welcome
+# Welcome to my blog!
 
 Hi there! I am Alvan, 21, software engineer and a foss fanboy.
 
@@ -47,6 +33,6 @@ I love autumn, drizzly weather and nature:
 
 ___
 
-Might worth checking out:
+Might worth checking out: (thanks to [Runkli](https://runkli.xyz/) for suggesting this section)
 - [landchad.net](https://landchad.net)
 - [based.cooking](https://based.cooking)
