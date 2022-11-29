@@ -1,5 +1,4 @@
 +++
-title = "Alvan Rahimli :: Home"
 menu = "main"
 tags = ["daily","dotnet","free-software","learning","monthly","quarter","rant","tutorial","update","weekly",]
 +++
