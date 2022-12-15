@@ -15,6 +15,12 @@ Although I currently don't have much time to write code just for fun, I was and 
 
 [Just for fun. No, really.](https://justforfunnoreally.dev/)
 
+{{< rawhtml >}}
+<a href="https://edleeman.co.uk/cookie-zero">
+    <img src="https://edleeman.co.uk/images/cookiezero.svg">
+</a>
+{{< /rawhtml >}}
+
 And this blog is my first attempt at making my "own internet", which turned out nicely. I currently have self hosted:
 - Blog: [Hugo](https://gohugo.io)
 - Note-taking app: [MoeMemos](https://github.com/mudkipme/MoeMemos)
