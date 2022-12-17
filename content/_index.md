@@ -23,7 +23,8 @@ Although I currently don't have much time to write code just for fun, I was and 
 
 And this blog is my first attempt at making my "own internet", which turned out nicely. I currently have self hosted:
 - Blog: [Hugo](https://gohugo.io)
-- Note-taking app: [MoeMemos](https://github.com/mudkipme/MoeMemos)
+- News feed: [Miniflux](https://miniflux.app/) (Aggregates youtube, news websites, blogs etc)
+- Note-taking / to-do app: [MoeMemos](https://github.com/mudkipme/MoeMemos)
 
 Planned:
 - Nextcloud + OnlyOffice
