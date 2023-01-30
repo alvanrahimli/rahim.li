@@ -16,6 +16,8 @@ Although I currently don't have much time to write code just for fun, I was and 
 [Just for fun. No, really.](https://justforfunnoreally.dev/)
 
 {{< rawhtml >}}
+<img style="border:1px solid white;" src="https://auzziejay.com/images/noweb32.gif">
+
 <a href="https://edleeman.co.uk/cookie-zero">
     <img src="https://edleeman.co.uk/images/cookiezero.svg">
 </a>
