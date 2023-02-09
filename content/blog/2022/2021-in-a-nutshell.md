@@ -1,14 +1,8 @@
 +++
 title = "2021 in a Nutshell"
 date = "2022-01-01T02:19:41+04:00"
-author = ""
-authorTwitter = "alvan_rahim" #do not include @
-cover = ""
 tags = ["yearly", "rant"]
-keywords = ["rant", "year", "summary", "recap"]
 description = "2021 was the most busy year of my life. I'll try to sum it in this blog post."
-showFullContent = false
-readingTime = true
 +++
 
 # Early 2021
