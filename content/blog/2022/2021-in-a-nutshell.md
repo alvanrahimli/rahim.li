@@ -1,7 +1,8 @@
 +++
 title = "2021 in a Nutshell"
 date = "2022-01-01T02:19:41+04:00"
-tags = ["yearly", "rant"]
+tags = ["rant","yearly"]
+
 +++
 
 # Early 2021
@@ -118,3 +119,4 @@ Email: [alvan@rahim.li](mailto:alvan@rahim.li)
 ---
 
 **Thank you very much for your time and patiance. Have a veeery nice year 🎆️! Bye.**
+
