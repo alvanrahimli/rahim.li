@@ -3,6 +3,6 @@
     "silent": true
   },
   "env": {
-    "HUGO_VERSION": "0.93.3"
+    "HUGO_VERSION": "0.110.0"
   }
 }
