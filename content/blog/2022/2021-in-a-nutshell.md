@@ -2,7 +2,6 @@
 title = "2021 in a Nutshell"
 date = "2022-01-01T02:19:41+04:00"
 tags = ["yearly", "rant"]
-description = "2021 was the most busy year of my life. I'll try to sum it in this blog post."
 +++
 
 # Early 2021
