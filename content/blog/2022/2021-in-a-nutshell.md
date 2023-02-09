@@ -1,5 +1,5 @@
 +++
-title = "2021 in a Nutshell"
+title = "Wrap up: 2021 in a Nutshell"
 date = "2022-01-01T02:19:41+04:00"
 tags = ["rant","yearly"]
 
