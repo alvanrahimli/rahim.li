@@ -1,8 +1,12 @@
-+++
-title = "Now"
-date = "2023-02-09T20:21:44+04:00"
-menu = "main"
-+++
+---
+title: 'Now'
+description: 'NowNowNow.com page of mine'
+menu:
+  main:
+    title: 'Now'
+    name: 'Now'
+    weight: 90
+---
 
 # What am I up to?
 

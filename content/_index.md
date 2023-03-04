@@ -1,6 +1,5 @@
 +++
-menu = "main"
-tags = ["daily","dotnet","free-software","learning","monthly","quarter","rant","tutorial","update","weekly",]
+tags = ["daily","dotnet","free-software","learning","monthly","quarter","rant","tutorial","update","weekly"]
 +++
 
 # Welcome to my blog!
@@ -16,12 +15,8 @@ Although I currently don't have much time to write code just for fun, I was and 
 [Just for fun. No, really.](https://justforfunnoreally.dev/)
 
 {{< rawhtml >}}
-<a href="https://yesterweb.org/no-to-web3/">
-	<img style="border:1px solid white;" src="https://auzziejay.com/images/noweb32.gif">
-</a><br/>
-<a href="https://edleeman.co.uk/cookie-zero">
-    <img style="border:1px solid white;" src="https://edleeman.co.uk/images/cookiezero.svg">
-</a>
+<a href="https://yesterweb.org/no-to-web3/" target="_blank"><img style="border:1px solid white;" src="https://auzziejay.com/images/noweb32.gif"></a><br>
+<a href="https://edleeman.co.uk/cookie-zero" target="_blank"><img style="border:1px solid white;" src="https://edleeman.co.uk/images/cookiezero.svg"></a>
 {{< /rawhtml >}}
 
 And this blog is my first attempt at making my "own internet", which turned out nicely. I currently have self hosted:
