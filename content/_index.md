@@ -2,7 +2,7 @@
 tags = ["daily","dotnet","free-software","learning","monthly","quarter","rant","tutorial","update","weekly"]
 +++
 
-# Welcome to my blog!
+# Welcome to my ~~blog~~ digital garden!
 
 Hi there! I am Alvan, 21, software engineer and a foss fanboy.
 
@@ -19,7 +19,10 @@ Although I currently don't have much time to write code just for fun, I was and 
 <a href="https://edleeman.co.uk/cookie-zero" target="_blank"><img style="border:1px solid white;" src="https://edleeman.co.uk/images/cookiezero.svg"></a>
 {{< /rawhtml >}}
 
-And this blog is my first attempt at making my "own internet", which turned out nicely. I currently have self hosted:
+I recently got to know the term "[Digital Garden](https://maggieappleton.com/garden-history)", and decided this particular place is my very own digital garden! Apparently blogs are more structured and well written, in the meantime, gardens are just [brain dumps](https://bt.ht/dump). I love this term because it takes that heaviness/responsibility from blogging, and it becomes easier to - well - just put something out there! [Join now, start a blog!](https://manuelmoreale.com/how-to-start-a-successful-blog)
+
+This place is my first attempt at making my "own Internet", which turned out nicely. I currently have self hosted:
+
 - Blog: [Hugo](https://gohugo.io)
 - News feed: [Miniflux](https://miniflux.app/) (Aggregates youtube, news websites, blogs etc)
 - Note-taking / to-do app: [MoeMemos](https://github.com/mudkipme/MoeMemos)
