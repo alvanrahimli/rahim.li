@@ -41,9 +41,9 @@
       <content:encoded>
         {{ printf "<![CDATA[" | safeHTML }}
           {{- printf "%s" .Content | safeHTML }}
-          {{ printf "<br/> <a href=\"mailto:alvan@rahim.li?Subject=Reply to:" | safeHTML}}
+          {{ printf "<p> <a href=\"mailto:alvan@rahim.li?Subject=Reply to:" | safeHTML}}
             {{ .Title | safeHTML -}}
-            {{ printf "\">Reply via email</a>" | safeHTML }}
+            {{ printf "\" rel=\"noopener noreferrer\" target=\"_blank\" referrerpolicy=\"no-referrer\">Reply via email</a></p>" | safeHTML }}
         {{- printf "]]>" | safeHTML }}
       </content:encoded>
     </item>
