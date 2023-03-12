@@ -41,6 +41,9 @@
       <content:encoded>
         {{ printf "<![CDATA[" | safeHTML }}
           {{- printf "%s" .Content | safeHTML }}
+          {{ printf "<br/> <a href=\"mailto:alvan@rahim.li?Subject=Reply to:" | safeHTML}}
+            {{ .Title | safeHTML -}}
+            {{ printf "\">Reply via email</a>" | safeHTML }}
         {{- printf "]]>" | safeHTML }}
       </content:encoded>
     </item>
