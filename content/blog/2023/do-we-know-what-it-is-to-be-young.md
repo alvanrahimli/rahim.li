@@ -8,15 +8,15 @@ Hi, dear reader!
 
 This time I got a kind of weird (one might call cringe) writing for you. 
 
-So, today morning, as always, I turned my computer on and spotify got opened on startup. I like it to start on startup, because it takes literally one click to start new playlist for morning. Something like "Discover weekly", "Morning jazz", and etc. Anyways, I put the music on and the very first song got my attention! 
+So, today morning, as always, I turned my computer on and spotify got opened on startup. I like it to start on startup, because it takes literally one click to start new playlist for the morning. Something like "Discover weekly", "Morning jazz", and etc. Anyways, I put the music on and the very first song got my attention! 
 
-*Don't worry, I will share the link to the song, but at first, I want to explain why it got my attention, so you can carefully too!* 
+*Don't worry, I will share the link to the song, but at first, I want to explain why it got my attention, so you can listen carefully too!* 
 
-It starts with amazing acoustic guitar backed by violins. The very first note is actually the (most probably) same as my other favourite song, so it had to be good! After couple of seconds, vocal comes in and the voice vocalist had that retro feeling to it. First sentence goes as:
+It starts with an amazing acoustic guitar backed by violins. The very first note is actually the (most probably) same as my other favourite song, so it had to be good! After couple of seconds, vocal comes in and the voice of the vocalist had that retro feeling to it. First sentence goes as:
 
 > When we are yound, age has no meaning
 
-It had started very nicely with melody, but that "has no" part was not able to fit in quite nicely, and vocalist had to rush that words. Therefore, my brain immediately got teased and I gathered all my attention to the song. Don't get me wrong, that part was not pleasent to me at all, because our brains release dopamine when we could predict the melody, words etc. Whatever, the song continued..
+It had started very nicely, but that "has no" part was not able to fit into the melody quite nicely, and vocalist had to rush that words. Therefore, my brain immediately got teased and I gathered all my attention to the song. Don't get me wrong, that part was not pleasent to me at all, because our brains release dopamine when we could predict the melody, words etc. Whatever, the song continued..
 
 > I never gave it a second thought..
 
@@ -47,7 +47,7 @@ But the main question is.. is this happiness? Is it something that we gotta expe
 
 Recently I've been talking with my brother, who has just got his first full time job and we all were very happy for him. However, after a few weeks of employement, he had started ranting about 9-5 job life, this fucking rate race and on similar topics. And it was not just any rant, they all were very true statements. Basically, he was telling that being a part of this huge system, in which we need to shove some personal life / entertainment into gaps of work life. Just like how nowadays websites shove content between ads! 
 
-This whole concept is ridiculous! Really, is it really okay to work 8 hours a day and live on fridays? Are we just bunch of spoiled youngsters ranting about how lazy we are, or it is the system that got fucked up? Ah, don't tell me I still got 8 hours for personal life. We sometimes overwork, do some side projects, transportation takes borrows a chunk, and this list goes on!
+This whole concept is ridiculous! Really, is it really okay to work 8 hours a day and live on fridays? Are we just bunch of spoiled youngsters ranting about how lazy we are, or it is the system that got fucked up? Ah, don't tell me I still got 8 hours for personal life (after sleep). We sometimes overwork, do some side projects, transportation takes a chunk, and this list goes on!
 
 Anyways, back to the topic. Does it really worth spending all this time, because we, someday will succeed? 
 
@@ -60,11 +60,11 @@ As I said, I'm also a fellow mate in this rush, and therefore, time flies! But s
 > Someday, you'll be saying the same thing,  
 > Time takes away, so the story is told..
 
-Man.. It feels weird. The more I grow up, the more I feel the clock ticking.. I won't be getting back that time wasted on watching Family guy shorts! Oh, btw, it wouldn't hurt this bad if I watched the whole episodes like a real man! (sorry for this stereotyping here, it is easier to express the feelings). 
+Man.. It feels weird. The more I grow up, the more I feel the clock ticking.. I won't be getting back that time wasted on watching Family guy shorts! Oh, btw, it wouldn't hurt this bad if I had watched the whole episodes like a real man! (sorry for this stereotyping here, it is easier to express the feelings). 
 
 So, the clock is ticking, huh. Gotta be fast, rush the things, do more stuff, code, do business, work, get money, save it so you can buy yourself a flat near the city center, or a car.. Idk, all these mandatory posessions! Nope, do not stop you fucking idiot! Clock is ticking, gotta settle all of these down and finally start living the life you've been grinding for!
 
-Boy, do I have news for you! Your back hurts. And it is probably because you are getting old. Nope, all good on back? Then most likely you got couple of relationships lost, because you couldn't pay enough attention to them. Your friends? They are together, but you were too busy to hang out with them.
+Boy, do I have news for you! Now your back hurts. And it is probably because you are getting old. Nope, all good on back? Then most likely you got couple of relationships lost, because you couldn't pay enough attention to them. Your friends? They are together, but you were too busy to hang out with them.
 
 I believe that **time is only as fast as you**. In fact, you are the time. It is only you who experiences it and it is very much tied to your view of life. If you are in a rush to retirement, good news, you will get there fast. But guess what, you lived fast too. You were so fast that no one could catch up with you, or take their time and love you. Or maybe you didn't have time to stay, relax and appreciate things you are surrounded with!
 
