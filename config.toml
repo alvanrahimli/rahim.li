@@ -8,7 +8,7 @@ theme = 'hugo-bearblog'
 # Basic metadata configuration for your blog.
 title = "Alvan's blog"
 author = "Alvan Rahimli"
-copyright = "Copyright © 2023, Alvan Rahimli."
+copyright = "Licensed under CC-BY-4.0 · Alvan Rahimli"
 languageCode = "en-US"
 
 # Generate a nice robots.txt for SEO
@@ -23,7 +23,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 [params]
   # The "description" of your website. This is used in the meta data of your generated html.
-  description = "Blog posts and notes I take while learning & discovering new stuff"
+  description = "Alvan's digital garden. Posts, notes and essays I write while learning & discovering stuff"
 
   # The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
   # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
