@@ -7,7 +7,7 @@ menu:
     weight: 100
 ---
 
-# Contact me via
+## Contact me via
 
 | Platform | Details                                                      |
 | :------- | ------------------------------------------------------------ |

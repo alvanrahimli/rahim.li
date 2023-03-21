@@ -2,7 +2,7 @@
 tags = ["daily","dotnet","free-software","learning","monthly","quarter","rant","tutorial","update","weekly"]
 +++
 
-# Welcome to my ~~blog~~ digital garden!
+# Welcome to my digital garden!
 
 Hi there! I am Alvan, 21, software engineer and a foss fanboy.
 

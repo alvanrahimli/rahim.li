@@ -5,7 +5,7 @@ menu:
   main:
     title: 'Now'
     name: 'Now'
-    weight: 90
+    weight: 30
 ---
 
 ## How to read this page?
