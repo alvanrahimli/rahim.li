@@ -6,7 +6,7 @@ baseURL = "https://rahim.li"
 theme = 'hugo-bearblog'
 
 # Basic metadata configuration for your blog.
-title = "Alvan's blog"
+title = "Alvan's digital garden"
 author = "Alvan Rahimli"
 copyright = "Licensed under CC-BY-4.0 · Alvan Rahimli"
 languageCode = "en-US"
