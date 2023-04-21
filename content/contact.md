@@ -11,6 +11,6 @@ menu:
 
 | Platform | Details                                                      |
 | :------- | ------------------------------------------------------------ |
-| Email    | [alvan@rahim.li](mailto:alvan+blog@rahim.li "Mail to me")    |
+| Email    | [sayhi@rahim.li](mailto:sayhi@rahim.li "Mail to me")         |
 | Mastadon | [@alvanrahimli@noc.social](https://noc.social/@alvanrahimli "Mastodon handle") |
 
