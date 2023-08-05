@@ -1,7 +1,7 @@
 ---
-title = "Status Update from Vacation"
-date = "2023-08-02T21:56:00+04:00"
-tags = ["status-update","rant"]
+title: "Status Update from Vacation"
+date: "2023-08-02T21:56:00+04:00"
+tags: ["status-update","rant"]
 ---
 
 Hi all!

@@ -33,7 +33,7 @@ Basically,
 
 Yes, it gets interesting. I was told `Task` is lightweight `Thread`. Looks like I have been tricked a bit :D
 
-![We have been tricked](/images/shared/we-have-been-tricked.png#center)
+![We have been tricked](https://cdn.rahim.li/we-have-been-tricked.png)
 
 ### Task:
 Task represents a work that needs to be done. It can be completed right now or after some time. 

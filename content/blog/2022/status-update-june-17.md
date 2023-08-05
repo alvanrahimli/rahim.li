@@ -60,12 +60,12 @@ So, I'm mostly safe and I won't be getting a macbook soon.
 ## There is still... some hope left...
 ### E Foundation
 One or two weeks ago, I noticed [e.foundation](https://e.foundation/) had the first stable release! If you don't know, those guys are making unGoogled android OS. Here you are, their subtitle:
-```
-We build desirable, open source,  
-privacy-enabled smartphone operating systems.  
-We are /e/
-```
-![E](/images/status-update-17-june/e-meme.jpg#center)
+
+> We build desirable, open source,  
+> privacy-enabled smartphone operating systems.  
+> We are /e/
+
+![E Meme](https://cdn.rahim.li/e-meme.jpg)
 
 ### Fair Phone
 And also, they have started selling phones with custom OS. Their manufacturer is **FairPhone**. Those guys are making environment friendly, customer oriented phones. [You can check them out here](https://www.fairphone.com/en/)
@@ -115,6 +115,4 @@ One last thing, here you are, god damn very cute picture of Marylin Monroe. Idk 
 
 .
 
-
-![Marylin Monroe](/images/status-update-17-june/marylin-monroe.jpeg#center)
-
+![Marylin Monroe](https://cdn.rahim.li/marylin-monroe.jpeg)

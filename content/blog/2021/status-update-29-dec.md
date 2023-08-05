@@ -35,7 +35,7 @@ In this stage, I talked with Ali (Co-Founder) about Samir. We decided to add him
 
 After 2 days, actualy meeting took place and we presented out project to them. I think it was quite successful presentation. We managed to answer all of their questions and thoughts. I think they only had some sceptical views on our income strategy, but we tried our best to explain them. So, currently we are waiting. Almost 2 weeks have passed. I texted them via WhatsApp and they said "We will let you know until the end of next week". 
 
-![Chat with SabahLab](/images/status-update-29-dec/sabahlab-chat.png#center)
+![SabahLab Chat](https://cdn.rahim.li/sabahlab-chat.png)
 
 After that week, we learned that If we can manage to pass this stage too and be one of five teams, we will get a investment of 25k Manats. LOL! We didn't know this. But later we have decided it was for our own good. I mean, if we knew that investment, we could be more excited and stressed.
 

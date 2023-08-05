@@ -115,10 +115,5 @@ Now you can tell, hey, Alvan, it is good and all, but how do you know? Yep, exac
 
 Thank you for sharing your time with me. It is much appreciated <3
 
-# .
-
-# .
-
-# .
 
 [^success]: What really is success? A lot of money? Impact on world? Good memories? I'm confused..

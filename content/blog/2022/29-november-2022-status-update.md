@@ -45,7 +45,7 @@ Recently, he shared a diagram of Twitter backend architecture on twitter. Well t
 
 Couple of days later, he tweeted:
 
-![Elon's tweet, telling: "Maybe deprecate TLS"](/images/2022/maybe-deprecate-tls.png)
+![Elon's tweet, telling: "Maybe deprecate TLS"](https://cdn.rahim.li/maybe-deprecate-tls.png)
 _*I originally had tweet embedded, but it loads 10+ cookies if you visit this page, so there is no need :D_
 
 Pay attention to _"maybe deprecate TLS"_ line. I personally think he did this on purpose, so people will think and discuss about "TLS - Transaction Layer Security", and make this a hot topic. 

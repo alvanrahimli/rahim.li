@@ -50,8 +50,8 @@ For now, I want to learn more about Go.
 # 👷 What I actually did this week?
 So, interesting question this is. Let's look at the GitHub activity heatmap: 
 
-![GitHub Activity](/images/status-update-1/github-activity-14-11-2021.png "Github Activity")
-\
+![GitHub Activity](https://cdn.rahim.li/github-activity-14-11-2021.png)
+
 As you can see, last week was a bit non-coding week. Am I happy? Absolutely no! Do I feel guilty? Indeed, yes! Then why the f* I'm not doing any work? Well, this is all because of that full-time job. I'm drowning in large codebase with no onboarding or whatsoever. I try to understand and use it, but it is slow. Okay, whatever, I'll handle all of these.  
 
 Guess what is interesting! UI Design of our startup! I damn like that. This is exactly what makes me excited to work. And I'm looking forward to write posts about that project's development.
@@ -65,7 +65,7 @@ Okay, these was excuses of my laziness. I couldn't find exact things that I did 
 - Wait for other elements to continue working on this [project](#another-startup)
 - Watch some Disney movies (Idk what are these called. Pixar movies? just movies? Whatever.)
 
-![Handshake Meme](/images/status-update-1/handshake-gym-programmer.jpg#center)
+![Handshake Meme](https://cdn.rahim.li/handshake-gym-programmer.jpg)
 
 # 🎁 Bonus links
 - 🎶 [Amazing music to listen](https://youtu.be/ZILsHowUjpQ)

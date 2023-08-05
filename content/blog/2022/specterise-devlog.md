@@ -13,7 +13,7 @@ As you probably know (I've been talking about these in earlier posts), we were w
 
 After having quite a bit of difficultues regarding finding funds, monetizing it, having go-to-market strategy, launching in time and other factors, we sadly declared those startups' (iVolt.energy & bilgin.az) failure.
 
-![Declaring failure of iVolt.energy](/images/2022/ivolt-declaring-failure.png "Samir's and my messages, saying we don't regret any effort we had put into iVolt's implementation and appreciating each other for this good run")
+![ivolt-declaring-failure](https://cdn.rahim.li/ivolt-declaring-failure.png "Samir's and my messages, saying we don't regret any effort we had put into iVolt's implementation and appreciating each other for this good run")
 _I actually keep this screenshot in my backup drive :D_
 
 Anyways, after this emotional (maybe a little bit cringe, idk) occasion, I had a little break from startup stuff. In the meantime, I started working at bp, did some reading etc. Also I coded less, to prevent burnout, lol.
@@ -101,7 +101,7 @@ At this point, I was working almost 14 hours a day, trying to maintain full-time
 
 As our requirements was forming along the way, I had to rewrite some parts of it, refactor it multiple times and as I was approaching end of first spring, it was quite solid codebase! Letme see if I can find some screenshots for you
 
-![Specterise HomePage screenshot](/images/2022/specterise-ss-1.png)
+![Screenshot from Specterise](https://cdn.rahim.li/specterise-ss-1.png)
 
 We can actually see multiple things here, we got heatmap, being drawn on camera frame, people being counted (writing this part was nice, I implemented ring buffer for the first time, did some trigonometry, worked with vectors - Very nice feelings, indeed!), not-so-nice looking alerts (at the top-right corner, telling there is queue overflow happening), etc.
 
@@ -114,10 +114,8 @@ I'm starting to think that this became quite lenghty post, and I've been writing
 
 Also, a friend is waiting for me outside. Gotta meet with him.
 
-*** 
+***
 
-Anyways, if you got any questions, something to talk about, or just want to rant about today's tech, write to me via email :)
-
-alvanrahimli [~@~] pm.me (trying to confuse scrapers, lol)
+Anyways, if you got any questions, something to talk about, or just want to rant about today's tech, feel free to [contact me](/contact) :)
 
 > To be continued :D

@@ -110,7 +110,7 @@ This was my year (actually, a year and half). Thank you for your time. Although 
 
 So, if you are reading these, please contact me. I would like to hear your opinion on these topics. What did I do wrong? What should I have done? Please let me know ❤️ 
 
-Email: [alvan@rahim.li](mailto:alvan@rahim.li)
+[Contact details](/contact)
 
 # Music recommendation(s)
 - All of [Mohsen Namjoo's](https://www.youtube.com/channel/UCf8EMYdv6DTYpqCjEGb83SA) songs
