@@ -1,9 +1,8 @@
-+++
+---
 title = "Status Update from Vacation"
 date = "2023-08-02T21:56:00+04:00"
 tags = ["status-update","rant"]
-
-+++
+---
 
 Hi all!
 
@@ -13,11 +12,13 @@ This one should contain a lot, because - well - a lot has happened, but I won't 
 
 So, I'm at Shamakhi, a district in Azerbaijan. It is not the most famous one for its tourism (afaik), but we found a nice and quite place to stay, called "Sakit göl" (Silent lake). It is located besides a lake and there are "A frame" cottages to rent. They sure look cozy and welcoming to stay at, considering their medieval theme. 
 
-![Lake and cottages](/images/2023/lake_and_cottages.jpg "Picture of the lake, 2 docks, and 'A frame' cottages")
+![Lake and cottages](https://cdn.rahim.li/lake_and_cottages.jpg "Picture of the lake, 2 docks, and 'A frame' cottages")
 
 We are staying at 6th cottage (I'm writing these details because they'll probably feel nice in future :D - whole reason of me taking these notes). At the time of writing this post, it is 10:00 PM and at the other side of lake, there is a guy singing old azerbaijani songs (sometimes in russian tho). To be honest, it is distracting me, but sadly (just now, it felt good to have something not in control, lmao) I can't do anything about it.
 
 [Night at the "Sakit göl"](https://youtu.be/T8PhuKJdoYY)
+
+![njhg](https://cdn.rahim.li/symmetric_bridge.jpg)
 
 So, the cottage has a balcony, which is elevated around 2 meters from ground and lake itself is quite close and - although I can't see it clearly because it is dark - feels great. It sure has some calming feeling to it. And also, I often find myself thinking about how huge it is. It contains a lot of water, man. Not just water, the whole ecosystem in itself. 
 
@@ -45,7 +46,7 @@ We also did some fishing today! When we came here, dad had borrowed a fishing ro
 
 I also tried several times but they were eating the thing from the needle. Good for the fishes, I guess :D. Nevertheless, I did learn how to throw the rod. That part was cool, at least.
 
-![Dad and brother](/images/2023/fishing.jpg "Dad and my brother, sitting at the edge of the dock, waiting for a fish")
+![Dad and brother](https://cdn.rahim.li/fishing.jpg "Dad and my brother, sitting at the edge of the dock, waiting for a fish")
 
 Other than these, it has been a stable and calming experience so far.
 
@@ -75,7 +76,7 @@ As I am back home, I can plug my laptop to battery, which means more time to loo
 
 Yes! Yesterday we did saw a racoon! We don't usually see much wild-life other than cats and dogs here, so it was interesting to see for the first time. It was - certainly: cute, probably: hungry, and I assume that: curious! It tries to come close to us, but prolly couldn't. Will leave a pic of it too :D
 
-![Racoon](/images/2023/racoon.jpg "Picture of a racoon, looking for food")
+![A curious racoon](https://cdn.rahim.li/racoon.jpg)
 
 There doesn't seem to be anything more that happened here. I've taken this whole week as vacation, so will hopefully write more as I go. 
 

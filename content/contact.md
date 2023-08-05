@@ -12,5 +12,5 @@ menu:
 | Platform | Details                                                      |
 | :------- | ------------------------------------------------------------ |
 | Email    | [sayhi@rahim.li](mailto:sayhi@rahim.li "Mail to me")         |
-| Mastadon | [@alvanrahimli@noc.social](https://noc.social/@alvanrahimli "Mastodon handle") |
+| Lemmy    | [@alvanrahimli](https://lemmy.ml/u/alvanrahimli "Mastodon handle") |
 
