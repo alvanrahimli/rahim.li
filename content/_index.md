@@ -8,6 +8,8 @@ Hi there! I am Alvan, 21, software engineer and a FOSS enthusiast.
 
 Co-Founder [@specterise](https://specterise.com) and SWE [@bp](https://bp.com)
 
+_Gather ye rosebuds while ye may_
+
 Although I currently don't have much time to write code just for fun, I was and will be doing so, after graduating from university :) [Just for fun. No, really.](https://justforfunnoreally.dev/)
 
 {{< rawhtml >}}
