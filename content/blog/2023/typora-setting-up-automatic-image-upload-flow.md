@@ -24,8 +24,8 @@ So, to start, we need to create a profile for `rclone`. Type `rclone config file
 
 For Linode S3, this is what final config looks like, based on [this guide](https://www.linode.com/docs/guides/rclone-object-storage-file-sync/)
 
-```toml
-[<rclone profile name>]
+```
+[rclone profile name]
 type = s3
 provider = Ceph
 access_key_id = <key id>
