@@ -1,5 +1,6 @@
 ---
 title: "AI Surveillance: Ethical Landmines in Digital Panopticon"
+slug: "digital-panopticon"
 date: "2023-11-03T01:25:00+04:00"
 tags: ["rant"]
 ---
