@@ -29,7 +29,7 @@ Here is another one, from wiki page of [MeWe](https://mewe.com) social media pla
 
 *Hell no. Why can't we have nice things?* 
 
-This really drives me crazy. As you probably now, because of all these unethical practices, I very much dislike Facebook and such mainstream platforms. They have the most strict guidelines about which word, how, in which context, in which parts of content[^yt-profanity-1][^yt-profanity-2] you can or can't use. I mean, I understand why they have such strict rules. It is not easy to govern such massive platforms. But at this point, their massive size - inflated like a balloon - hurts the platform, freedom of speech and prevent users from expressing themselves. That is exactly why Elon Musk could advertise twitter as free-speech platform[^elon-musk] once he took over. To maintain this ridiculous scale, mainstream platforms implement censorship that is **beyond** the law. When you see people forced to do letter juggling to write the word "suicide", you know we have failed. As society. Of course, platforms need to keep close eye on the  usages. Internet is full of creepy people. But whenever I see the word written like "5u1c1de".. It doesn't feel good, man. 
+This really drives me crazy. As you probably now, because of all these unethical practices, I very much dislike Facebook and such mainstream platforms. They have the most strict guidelines about which word, how, in which context, in which parts of content[^yt-profanity-1] [^yt-profanity-2] you can or can't use. I mean, I understand why they have such strict rules. It is not easy to govern such massive platforms. But at this point, their massive size - inflated like a balloon - hurts the platform, freedom of speech and prevent users from expressing themselves. That is exactly why Elon Musk could advertise twitter as free-speech platform[^elon-musk] once he took over. To maintain this ridiculous scale, mainstream platforms implement censorship that is **beyond** the law. When you see people forced to do letter juggling to write the word "suicide", you know we have failed. As society. Of course, platforms need to keep close eye on the  usages. Internet is full of creepy people. But whenever I see the word written like "5u1c1de".. It doesn't feel good, man. 
 
 So, as a result of this censorship practices, communities with different political/economical views get suppressed. Most of the times, it is for good of our society - at least majority of it. And I think, unfortunately, blocking them from social media always backfires. 
 
@@ -63,7 +63,7 @@ Whoop! I'd love to say this, but nope. This one is like closing your eyes and th
 Guess, there will never be a sweet spot. Maybe this is better, world have never had stable times. Maybe this is what the Yin and Yang means. The forever battle between sides. We need the balance.
 
 {{<rawhtml>}}
-<video controls> 
+<video style="width: 100%;" controls>
 	<source src="https://files.rahim.li/blog/avatar-yin-yang.mp4" type="video/mp4"/>
 </video>
 {{</rawhtml>}}
