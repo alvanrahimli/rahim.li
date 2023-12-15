@@ -19,6 +19,8 @@ Oyun heç. BeamNG, Astroneer və son 2 gündür Euro truck simulator oynayıram.
 
 İnternetdə gəzməyə gələndə isə, hə, əsas söhbət buradadır. 
 
+*Bütün yazını oxumağa həvəsin yoxdursa, tech industry-sinə olan münasibətim, qısaca: ([video](https://youtu.be/HwEIjKB5tVM?t=142))*
+
 İnternetdə gəzmək deyəndə, xəbərlər/məqalələr oxumaq, videolara baxmağı nəzərdə tuturam. Adam "pink problemlər[^pink-problem]" ilə də burda tanış olur. Dəhşət..
 
 [^pink-problem]: Yazının sonlarına doğru biləcəyik ki, o qədər də pink deyil.
