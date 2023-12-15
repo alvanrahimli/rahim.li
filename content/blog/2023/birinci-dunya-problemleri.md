@@ -66,7 +66,7 @@ Engineerlər müəyyən ediblər ki, "NEWAG Impuls" adlı şirkətin istehsal el
 
 Belə də iş olar?! 
 
-Bilirsiz, bu siyahı həqiqətən çox uzundur. Sosial medianın davamlı "enshittification"-undan tutmuş, belə anti-consumerist praktikalara qədər.. Yerimdə dura bilmirəm əsəbdən ala. 
+Bilirsiz, bu siyahı həqiqətən çox uzundur. Sosial medianın davamlı "enshittification"-undan tutmuş, belə istifadəçi azadlıqların tapdalanması praktikalarına qədər.. Yerimdə dura bilmirəm əsəbdən vallah. 
 
 Siz də mənim ki əqli sağlamlığınızı itirmək istəyirsinizsə, buyurun, [Louis Rossmann](https://www.youtube.com/@rossmanngroup) qardaşı izləyin. Çox az-az onun kimi adam olar. A man of dedication.
 
@@ -162,7 +162,7 @@ Belə belə işlər. Əməlli deyindim. İndi biraz yaxşı hiss edirəm. Son g�
 
 Tam belə deyingən yekunlaşmamaq üçün, bir iki xırda həll yolu da yazım.
 
-Biznes etikası.. Free software.. [4 təməl azadlıq](https://www.gnu.org/philosophy/free-sw.en.htm).. [GNU](https://www.gnu.org).. Linux.. Açıq Standardlar.. Təhsil.. Maarifləndirmə.. Demokratiya.. 
+Biznes etikası.. Free software.. [4 təməl azadlıq](https://www.gnu.org/philosophy/free-sw.en.htm).. [GNU](https://www.gnu.org).. Linux.. Açıq Standardlar.. Təhsil.. Maarifləndirmə.. Demokratiya.. ([istinad](https://youtu.be/-xfFG9b_ygU?t=66))
 
 ***
 
