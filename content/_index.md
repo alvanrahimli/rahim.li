@@ -29,8 +29,7 @@ De-google your life!
 - [x] [Linkding](https://github.com/sissbruecker/linkding) - Self-hosted bookmark service
 - [x] [Kagi](https://kagi.com) - paid search engine
 - [x] [Signal Messenger](https://www.signal.org/) - End2end encrypted messenger app
-- [x] [Proton apps](https://proton.me/) - Email, Calendar, Drive, VPN, and soon Password manager!
-- [x] [Bitwarden](https://bitwarden.com/) - FOSS Password manager
+- [x] [Proton apps](https://proton.me/) - Email, Calendar, Drive, VPN, and Password manager!
 - [ ] [Nextcloud](https://nextcloud.com/) - Google Drive alternative
 
 ___

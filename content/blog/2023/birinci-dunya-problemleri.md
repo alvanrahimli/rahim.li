@@ -1,6 +1,6 @@
 ---
-title: "Pink problemlər"
-slug: "pink-problemler"
+title: "Birinci Dünya Problemləri"
+slug: "birinci-dunya-problemleri"
 date: "2023-12-15T00:18:00+04:00"
 tags: ["rant"]
 ---
@@ -86,11 +86,11 @@ Hə, baha başa gəlir. Həm maddi cəhətdən, həm də rahatlıq cəhətdən. 
 
 Richard barədə də ayrı esse yazmaq istəyirəm neçə vaxtdır. Çox bəyənirəm bu kişini. Bir müddət idi onu linç edirdilər, amma ədalət əvvəl axır yerini tapdı. Bu şeyləri başladan nəfər də bir növ üzr istəyib. Hərşeyi [faktlar ilə sübut](https://stallmansupport.org/) da ediblər.
 
-[^based-richard]: Bilirəm, bu biraz ekstrimdir. Amma ekstrim olmalıdır ki, ortalama yaşanılacaq vəziyyətdə qalsın. Çünki əks tərəf zatən ağırdır. Bütün yer üzünün iqtisadiyyatı ağırlığında.
+[^based-richard]: Bilirəm, bu biraz ekstrimdir. Amma düşünürəm ki, ekstrim olmalıdır ki, ortalama yaşanılacaq vəziyyətdə qalsın. Çünki əks tərəf zatən güclüdür. Bütün iqtisadiyyat ağırlığında.
 
 ***
 
-Bir dənə də yaralı yerimdən yazmaq istəyirəm. Universitetlər!
+Daha bir yaralı yerimdən yazmaq istəyirəm. Təhsil insitutları!
 
 Yox, təhsilin məğzinin unudulduğunu deməyəcəm. Hamının fərqinə olduğu və müzakirə etdiyi problemdir, mən yeni heçnə qata bilmərəm. 
 
