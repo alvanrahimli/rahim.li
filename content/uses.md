@@ -12,6 +12,7 @@ menu:
 
 I am in the process of [de-googleing](https://en.wikipedia.org/wiki/DeGoogle) my life. 
 
+- Mobile OS - [Graphene OS](https://grapheneos.org/)
 - Search engine - [Kagi](https://kagi.com/)
 - Mail - [Proton Mail](https://proton.me/mail)
 - Calendar - [Proton Calendar](https://proton.me/calendar)
@@ -22,7 +23,7 @@ I am in the process of [de-googleing](https://en.wikipedia.org/wiki/DeGoogle) my
 
 ## Hardware
 
-- I love keyboards, and have been using [Launch](https://system76.com/accessories/launch) by system76[^system76]. It is just beautiful. No more words are needed.
+- I love keyboards, and have been using [Launch](https://system76.com/accessories/launch) by system76. It is just beautiful. No more words are needed.
 - Upcoming: Split keyboard [ZSA Voyager](https://www.zsa.io/voyager/) (Waiting for it to be delivered)
 - Mouse: Logitech G603 - a classic.
 - Monitor: Gigabyte G27Q
@@ -43,13 +44,17 @@ I am in the process of [de-googleing](https://en.wikipedia.org/wiki/DeGoogle) my
 
 *Despite this, I've done my best to tweak it and remove trackers, etc. I hate it, but gotta bear for some time*
 
-**As mobile phone, I'm using Pixel 7 - intentionally.**
+**As mobile phone, I'm using Pixel 7 - Running Graphene OS now!!**
 
-*Now, I have better excuse for this one, hehe! Next year I am going to install [GrapheneOS](https://grapheneos.org/) to this phone. (they only support Pixel devices, as it has more hardware capability for a better security)*
+*On 16 December, 2023, I finally switched to GrapheneOS. Huge thanks to everyone who had contributed to this project in one way or another.*
+
+*(old) Now, I have better excuse for this one, hehe! Next year I am going to install [GrapheneOS](https://grapheneos.org/) to this phone. (they only support Pixel devices, as it has more hardware capability for a better security)*
 
 **Google Photos** -  NOT ANY MORE!!
 
-*Well, first it was built-int option for me, on my all Android phones. But then, as soon as Proton released mobile app for their Drive solution, I switched to it, and upgraded my plan. Proud moments :')*
+*Using ProtonDrive now. hehe!*
+
+*(old) Well, first it was built-int option for me, on my all Android phones. But then, as soon as Proton released mobile app for their Drive solution, I switched to it, and upgraded my plan. Proud moments :')*
 
 
 

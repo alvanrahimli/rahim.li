@@ -6,7 +6,7 @@ tags: ["daily","dotnet","free-software","learning","monthly","quarter","rant","t
 
 Hi there! I am Alvan, 22, software engineer and a FOSS enthusiast.
 
-## As of 16 December 2023, I am completely Google-Free!!!
+## As of 16 Dec, 2023, I am completely Google-Free!!!
 
 Co-Founder [@specterise](https://specterise.com) and SWE [@bp](https://bp.com)
 
@@ -24,16 +24,7 @@ I recently got to know the term "[Digital Garden](https://maggieappleton.com/gar
 
 This place is my first attempt at making my "own Internet", which turned out nicely. 
 
-De-google your life!
-- [x] [Hugo](https://gohugo.io) - static site generator
-- [x] [Miniflux](https://miniflux.app/) - minimalist and opinionated feed reader
-- [x] [MoeMemos](https://github.com/mudkipme/MoeMemos) - self-hosted memo hub
-- [x] [Linkding](https://github.com/sissbruecker/linkding) - Self-hosted bookmark service
-- [x] [Kagi](https://kagi.com) - paid search engine
-- [x] [Signal Messenger](https://www.signal.org/) - End2end encrypted messenger app
-- [x] [Proton apps](https://proton.me/) - Email, Calendar, Drive, VPN, and Password manager!
-- [ ] [Nextcloud](https://nextcloud.com/) - Google Drive alternative
-
+De-Google your life!
 ___
 
 I love autumn, drizzly weather and nature:
