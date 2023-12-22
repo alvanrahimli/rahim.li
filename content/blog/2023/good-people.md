@@ -1,5 +1,5 @@
 ---
-title: "Thank You, Good Person"
+title: "Thank You, Good People"
 date: "2023-12-23T00:12:00+04:00"
 tags: ["rant"]
 ---
