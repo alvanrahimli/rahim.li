@@ -14,7 +14,9 @@ A group photo that we took while the trip to [Göygöl](https://en.wikipedia.org
 
 Love you all, guys <3
 
-![The Bois in GoyGol](https://files.rahim.li/blog/TheBoisGoyGol.jpg "Lovely people")
+![GoyGol, Azerbaijan](https://files.rahim.li/blog/TheBoisGoyGol.jpg "Lovely people")
+
+![Baku Boulevard - 29 December, 2023](https://files.rahim.li/blog/PXL_20231229_170624812.MP.jpg)
 
 Personal blogs:
 
