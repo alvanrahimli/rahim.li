@@ -10,7 +10,7 @@ menu:
 ## Contact me via
 
 | Platform | Details                                                      |
-| :------- | ------------------------------------------------------------ |
+| -------- | ------------------------------------------------------------ |
 | Email    | [sayhi@rahim.li](mailto:sayhi@rahim.li "Mail to me")         |
-| Lemmy    | [@alvanrahimli](https://lemmy.ml/u/alvanrahimli "Mastodon handle") |
+
 

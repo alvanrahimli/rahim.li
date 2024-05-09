@@ -4,9 +4,9 @@ tags: ["daily","dotnet","free-software","learning","monthly","quarter","rant","t
 
 # Welcome to my corner of the Internet!
 
-Hi there! I am Alvan, 22, software engineer and a FOSS enthusiast.
+Hi there! I am Alvan, 23, software engineer and a FOSS enthusiast.
 
-## As of 16 Dec, 2023, I am completely Google-Free!!!
+## As of 16 Dec, 2023, I am completely Google-Free!
 
 Co-Founder [@specterise](https://specterise.com) and SWE [@bp](https://bp.com)
 

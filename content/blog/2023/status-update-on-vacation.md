@@ -76,7 +76,7 @@ As I am back home, I can plug my laptop to battery, which means more time to loo
 
 Yes! Yesterday we did saw a racoon! We don't usually see much wild-life other than cats and dogs here, so it was interesting to see for the first time. It was - certainly: cute, probably: hungry, and I assume that: curious! It tries to come close to us, but prolly couldn't. Will leave a pic of it too :D
 
-![A curious racoon](https://cdn.rahim.li/racoon.jpg)
+![A curious racoon](https://cdn.rahim.li/racoon.jpg#floatleft)
 
 There doesn't seem to be anything more that happened here. I've taken this whole week as vacation, so will hopefully write more as I go. 
 
